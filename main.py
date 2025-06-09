@@ -13,7 +13,7 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 from langchain_community.llms import HuggingFacePipeline
 # Configuration
 
-CSV_PATH = r"D:\nlp_project_haystack\newsQA_v2.0\IndianFinancialNews.csv"
+CSV_PATH = r"..\IndianFinancialNews.csv"
 rebuild_db_status = False  # Set to True to rebuild vector database
 EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 LLM_MODEL = "t5-large"
